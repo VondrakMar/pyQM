@@ -102,4 +102,4 @@ if __name__== "__main__":
     cm = conversion_matrix(theta,phi)
     test_vec = 5*e_r+2.3*e_theta+4.3*e_phi
     print(np.matmul(cm,test_vec))
-    print(test_vec)
+    print("hello word",test_vec)
